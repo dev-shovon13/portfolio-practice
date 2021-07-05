@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Satisfy&family=Shadows+Into+Light&display=swap');
 
 *{
     margin: 0;
@@ -39,6 +39,9 @@ body{
 h1{
     font-size: 50px;
 }
+p{
+    text-align: justify;
+}
 .equal-width{
     width: 50%;
     margin-left: 90px;
@@ -71,4 +74,67 @@ h1{
 h2{
     font-size: 40px;
     margin-bottom: 30px;
+}
+h3{
+    font-size: 30px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+.experience-section{
+   background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+.exp-text{
+   font-family:  'Shadows Into Light', cursive;
+   text-transform: uppercase;
+   color: rgb(110, 107, 107);
+   text-align: center;
+   text-shadow: 1px 3px 1px rgb(78 77 77);
+   background: rgba(153, 205, 50, 0.329);
+   padding: 5px;
+   border-radius: 5px;
+   margin-bottom: 70px;
+}
+.exp-mark{
+    font-family: 'Shadows Into Light', cursive;
+    color: orange;
+    font-size: 23px;
+    letter-spacing: 3px;
+}
+.set-pad{
+    padding: 10px 30px;
+    margin-right: 60px;
+    box-shadow: 0px 0px 20px 0px rgb(58, 57, 57);
+    border-radius: 5px;
+}
+.set-pad:first-child{
+    margin-right: 0px !important;
+    margin-left: 70px !important;
+}
+.border-1{
+    border-left: 7px solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      rgb(255, 93, 93), 
+      rgba(153, 8, 8, 0.603)
+    )1 100%;
+}
+.border-2{
+    border-left: 7px solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      rgb(6, 79, 214), 
+      rgba(35, 82, 211, 0.603)
+    )1 100%;
+}
+footer p{
+    margin-top: 150px;
+    margin-bottom: 10px;
+    text-align: center;
+    color:rgb(49, 46, 46);
+    background:rgba(96, 101, 102, 0.24);
+    padding: 15px;
 }
